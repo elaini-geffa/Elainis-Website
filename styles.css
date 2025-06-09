@@ -3,6 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Place this in your CSS file */
+.top-nav {
+    width: 100%;
+    background: var(--card-bg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.top-nav a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: #ffd3dc; /* soft pink highlight */
+}
 
 :root {
     --primary-gradient: linear-gradient(135deg, #b76e79 0%, #f7e7ce 100%);

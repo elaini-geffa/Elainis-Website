@@ -34,6 +34,10 @@
     color: #ffd3dc; /* soft pink highlight */
 }
 
+section {
+    scroll-margin-top: 100px; /* Adjust this to match your header height */
+}
+
 :root {
     --primary-gradient: linear-gradient(135deg, #b76e79 0%, #f7e7ce 100%);
     --secondary-gradient: linear-gradient(135deg, #fddede 0%, #f5e8d0 100%);

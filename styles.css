@@ -34,8 +34,8 @@
     color: #ffd3dc; /* soft pink highlight */
 }
 
-section {
-    scroll-margin-top: 100px; /* Adjust this to match your header height */
+.scroll-offset {
+    scroll-margin-top: 80px; /* Adjust to match your header height */
 }
 
 :root {

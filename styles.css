@@ -169,6 +169,31 @@ header {
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
+#typing {
+    border-right: 2px solid var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 0.8s ease 0.2s both;
+  }
+  
+  /* blinking cursor */
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: var(--text-secondary);
+    }
+  }
+  
+  #typing {
+    animation: blink 1s step-start infinite;
+  }
+  
+
 .intro-content .description {
     font-size: 1.1rem;
     line-height: 1.8;

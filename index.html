@@ -233,19 +233,33 @@
                     <div class="item-description">
                         I offer professional hair braiding services to my school community, developing strong client communication, time management, and attention to detail—skills that complement my software engineering work.
                     </div>
-                    <div class="image-carousel">
-                        <button class="arrow left-arrow">&#9664;</button> <!-- left arrow -->
-                        <div class="carousel-images">
-                          <img src="client1.jpg" alt="Client 1 Braided Hair" class="carousel-image active" />
-                          <img src="client2.jpg" alt="Client 2 Braided Hair" class="carousel-image" />
-                          <img src="client3.jpg" alt="Client 3 Braided Hair" class="carousel-image" />
-                          <video class="carousel-media" muted playsinline>
-                            <source src="client4.mov" type="video/mov" />
-                            Your browser does not support the video tag.
-                          </video>
+                    <div class="carousel-wrapper">
+                        <input type="radio" name="carousel" id="slide1" checked>
+                        <input type="radio" name="carousel" id="slide2">
+                        <input type="radio" name="carousel" id="slide3">
+                      
+                        <div class="carousel">
+                          <div class="slide">
+                            <img src="client1.jpg" alt="Client 1">
+                          </div>
+                          <div class="slide">
+                            <img src="client2.jpg" alt="Client 2">
+                          </div>
+                          <div class="slide">
+                            <video muted autoplay loop playsinline>
+                              <source src="client4.mov" type="video/mov">
+                              Your browser does not support the video tag.
+                            </video>
+                          </div>
                         </div>
-                        <button class="arrow right-arrow">&#9654;</button> <!-- right arrow -->
-                    </div>
+                      
+                        <div class="carousel-nav">
+                          <label for="slide1" class="nav-btn">&#9675;</label>
+                          <label for="slide2" class="nav-btn">&#9675;</label>
+                          <label for="slide3" class="nav-btn">&#9675;</label>
+                        </div>
+                      </div>
+                      
                 </div>
             </section>
 

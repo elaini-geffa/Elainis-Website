@@ -453,60 +453,55 @@ main {
     }
 }
 
-.entrepreneurship-section {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin: 2rem 0;
-  }
-  
-  .text-box {
-    flex: 1;
-    max-width: 50%;
-  }
-  
-  .image-carousel {
+.carousel-wrapper {
+    width: 300px;
     position: relative;
-    width: 300px; /* adjust as needed */
-    flex-shrink: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+    margin: auto;
   }
   
-  .carousel-images {
-    display: flex;
-    transition: transform 0.4s ease;
-    width: 100%;
-  }
-  
-  .carousel-image {
+  input[type="radio"] {
     display: none;
-    max-width: 300px;
-    border-radius: 8px;
-    user-select: none;
   }
   
-  .carousel-image.active {
-    display: block;
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+  }
+  
+  .slide {
     width: 100%;
+    flex-shrink: 0;
   }
   
-  .arrow {
-    background: none;
-    border: none;
-    font-size: 2rem;
+  .slide img,
+  .slide video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .carousel-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .nav-btn {
+    font-size: 1.2rem;
     cursor: pointer;
-    user-select: none;
-    padding: 0 10px;
-    color: #333;
+    margin: 0 5px;
   }
   
-  .left-arrow {
-    margin-right: 0.5rem;
+  /* Positioning slides based on radio input */
+  #slide1:checked ~ .carousel {
+    transform: translateX(0%);
   }
   
-  .right-arrow {
-    margin-left: 0.5rem;
+  #slide2:checked ~ .carousel {
+    transform: translateX(-100%);
+  }
+  
+  #slide3:checked ~ .carousel {
+    transform: translateX(-200%);
   }
   

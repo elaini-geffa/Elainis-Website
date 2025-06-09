@@ -34,6 +34,10 @@
     color: #ffd3dc; /* soft pink highlight */
 }
 
+.about-scroll-offset {
+    scroll-margin-top: 1000px;
+}
+
 .scroll-offset {
     scroll-margin-top: 50px;
 }

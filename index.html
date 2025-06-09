@@ -277,5 +277,12 @@
         
         setTimeout(typeWriter, 1000);
     </script>
+    
+    <script>
+        document.querySelector('a[href="#about"]').addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent default jump behavior
+          window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll smoothly to top
+        });
+      </script>
 </body>
 </html>

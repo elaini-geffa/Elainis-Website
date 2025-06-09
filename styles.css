@@ -38,6 +38,14 @@
     scroll-margin-top: 80px; /* Adjust to match your header height */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#about {
+    scroll-margin-top: 0 !important;
+}
+
 :root {
     --primary-gradient: linear-gradient(135deg, #b76e79 0%, #f7e7ce 100%);
     --secondary-gradient: linear-gradient(135deg, #fddede 0%, #f5e8d0 100%);

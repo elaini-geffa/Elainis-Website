@@ -169,10 +169,6 @@ header {
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
-#rotating-word {
-    transition: opacity 0.5s ease;
-}
-
 .intro-content .description {
     font-size: 1.1rem;
     line-height: 1.8;

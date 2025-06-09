@@ -23,3 +23,5 @@ Welcome to my personal resume website! This is a responsive, animated, and moder
 - **S3**
 - **Route 53**
 - **IAM**
+- **CloudFront**
+- **AWS Certificate Manager**

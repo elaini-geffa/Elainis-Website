@@ -1,27 +1,36 @@
-# 💼 Elaini Geffa — Personal Resume Website
+# 💼 Elaini Geffa — Personal Website
 
-Welcome to my personal resume website! This is a responsive, animated, and modern website built to showcase my experience, skills, and projects as a Computer Science student at Virginia Tech. It includes a clean design, animated sections, and a professional layout to help recruiters and collaborators learn more about me.
+Welcome to my personal website! This website is made to showcase my software engineering projects, technical skills, and professional experience. It is specifically designed for recruiters, mentors, and potential collaborators to learn more about my background, capabilities, and ongoing work in Computer Science at Virginia Tech.
+
+---
+
+## 🔗 Visit my Live Site!
+
+https://elainigeffa.com
 
 ---
 
 ## 📌 Features
 
-- Responsive layout (mobile & desktop)
+- Sections for about me, skills, experience, projects, and contact
+- Navigation bar
+- Responsive design for desktop and mobile
+- Clean, accessible layout built using HTML and CSS
 - Elegant glassmorphism design
 - Smooth scroll and animation effects
 - Dynamic typing subtitle effect
-- Sections for skills, experience, projects, and contact
 - Headshot image display in a circular frame
-- Accessible, semantic HTML structure
 
 ---
 
 ## 🛠 Built With
 
-- **HTML5**
-- **CSS3**
-- **S3**
-- **Route 53**
-- **IAM**
-- **CloudFront**
-- **AWS Certificate Manager**
+- HTML
+- CSS
+- Git + GitHub
+- Visual Studio Code
+- S3
+- Route 53
+- IAM
+- CloudFront
+- AWS Certificate Manager

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Place this in your CSS file */
+
 .top-nav {
     width: 100%;
     background: var(--card-bg);
@@ -31,7 +31,7 @@
 }
 
 .top-nav a:hover {
-    color: #ffd3dc; /* soft pink highlight */
+    color: #ffd3dc;
 }
 
 .scroll-offset {

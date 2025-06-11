@@ -4,9 +4,15 @@ Welcome to my personal website! This website is made to showcase my software eng
 
 ---
 
-## 🔗 Visit my Live Site!
+## 🔗 Visit my Live Site
 
 https://elainigeffa.com
+
+---
+
+## 🫣 Take a Peak
+
+![alt text](Screenshot.png)
 
 ---
 
@@ -14,7 +20,7 @@ https://elainigeffa.com
 
 - Sections for about me, skills, experience, projects, and contact
 - Navigation bar
-- Responsive design for desktop and mobile
+- User friendly and responsive design for desktop and mobile
 - Clean, accessible layout built using HTML and CSS
 - Elegant glassmorphism design
 - Smooth scroll and animation effects

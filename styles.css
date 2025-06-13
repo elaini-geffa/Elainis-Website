@@ -70,7 +70,6 @@ body::before {
 }
 
 .nav-logo a {
-    font-family: cursive;
     font-size: 1.5rem;
     font-weight: 700;
     background: var(--primary-gradient);
@@ -649,7 +648,7 @@ section {
         background: var(--card-bg);
         backdrop-filter: blur(20px);
         width: 100%;
-        text-align: center;
+        text-align: left;
         transition: 0.3s;
         padding: 2rem 0;
         border-bottom: 1px solid var(--glass-border);
@@ -657,6 +656,8 @@ section {
 
     .nav-menu.active {
         left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(8px); 
     }
 
     .nav-toggle {

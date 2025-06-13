@@ -159,7 +159,6 @@ body::before {
 }
 
 .subtitle-container {
-    margin-bottom: 1.5rem;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
@@ -176,13 +175,13 @@ body::before {
     font-weight: 600;
 }
 
-.hero-description {
+/* .hero-description {
     font-size: 1.2rem;
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 2rem;
     animation: fadeInUp 0.8s ease 0.4s both;
-}
+} */
 
 .hero-buttons {
     display: flex;
@@ -236,7 +235,6 @@ body::before {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    animation: float 6s ease-in-out infinite;
     box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
@@ -674,16 +672,6 @@ section {
 
     .nav-toggle.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .hero-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 2rem;
-    }
-
-    .hero-content h1 {
-        font-size: 2.5rem;
     }
 
     .about-content {

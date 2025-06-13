@@ -135,23 +135,23 @@ body::before {
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 4rem;
-    align-items: center;
-    max-width: 1200px;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 1.5rem;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 2rem;
+    text-align: center;
 }
 
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     animation: fadeInUp 0.8s ease;
 }
 
 .highlight {
-    white-space: nowrap;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -159,7 +159,6 @@ body::before {
 }
 
 .subtitle-container {
-    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
@@ -181,7 +180,6 @@ body::before {
     font-size: 1.2rem;
     color: var(--text-secondary);
     line-height: 1.8;
-    margin-top: 1.5rem;
     margin-bottom: 2rem;
     animation: fadeInUp 0.8s ease 0.4s both;
 }

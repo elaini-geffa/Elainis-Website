@@ -3,253 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elaini Geffa - Software Engineer</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Elaini Geffa - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="top-nav">
+    <!-- Navigation -->
+    <nav class="navbar">
         <div class="nav-container">
-        <a href="#about">About</a>
-        <a href="#skills">Technical Skills & Tools</a>
-        <a href="#featured-projects">Featured Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#beyond-code">Beyond the Code</a>
-        <a href="#connect">Connect</a>
+            <div class="nav-logo">
+                <a href="#home">Elaini Geffa</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </nav>
-    
-    <div class="background-animation"></div>
-    
-    <div class="container">
-        <header>
-            <div class="header-content">
-                <div class="profile-section">
-                    <div class="profile-image">
-                        <img src="Headshot.jpg" alt="Headshot"></i>
-                    </div>
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>elainigeffa05@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+1 (571) 733-4471</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Alexandria, VA</span>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/elainigeffa/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/elaini-geffa" title="GitHub"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
 
-                <section id="about" class="intro-content">
-                    <h1>Elaini Geffa</h1>
-                    <p class="subtitle">Software Developer</p>
-                    <p class="description">
-                        I’m a junior Computer Science student at Virginia Tech, focused on building practical projects that help me learn and grow. 
-                        I’ve deployed this website using AWS and created a calendar app that ranked #1 in a 200-person cohort. I’m driven to build 
-                        and solve problems, even when the path isn’t clear. I take initiative, adapt quickly, and learn what it takes to deliver results.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://docs.google.com/document/d/1fKAUdujHSXpBj8rBISpf6NaYTCugJuw7Aiz-01hn61c/edit?usp=sharing" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                            Open Resume
-                        </a>
-                    </div>
-                </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Elaini Geffa</span></h1>
+            <div class="subtitle-container">
+                <p class="subtitle">I'm a <span id="dynamic-text"></span></p>
             </div>
-        </header>
-
-        <main>
-            <section id="skills" class="section scroll-offset">
-                <h2 class="section-title">Technical Skills & Tools</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Languages</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Java</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">C</span>
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">MATLAB</span>
-                            <span class="skill-tag">JavaScript</span>
-                        </div>
-                    </div>
-                    <!-- <div class="skill-category">
-                        <h3>Backend Development</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">Express</span>
-                            <span class="skill-tag">PostgreSQL</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">GraphQL</span>
-                        </div>
-                    </div> -->
-                    <div class="skill-category">
-                        <h3>Design & Tools</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">UI/UX Design</span>
-                            <span class="skill-tag">GUI</span>
-                            <span class="skill-tag">Linux</span>
-                            <span class="skill-tag">Visual Studio Code</span>
-                            <span class="skill-tag">Canva</span>
-                            <span class="skill-tag">Draw.io</span>
-                            <span class="skill-tag">Prototyping</span>
-                            <span class="skill-tag">SolidWorks</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>DevOps & Cloud</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">AWS</span>
-                            <span class="skill-tag">Docker</span>
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">CI/CD</span>
-                            <span class="skill-tag">S3</span>
-                            <span class="skill-tag">Route 53</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="featured-projects" class="section scroll-offset">
-                <h2 class="section-title">Featured Projects</h2>
-                
-                <div class="project-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Social Media Analytics Organizer</div>
-                            <div class="item-company">Java, GUI, Data Structures</div>
-                        </div>
-                        <div class="item-date">2024</div>
-                    </div>
-                    <div class="item-description">
-                        Built a tool to visualize performance metrics (likes, followers, views, comments) from social media platforms. Integrated sorting algorithms for fast, efficient data retrieval. Designed a user-friendly GUI for easy navigation of complex data sets.
-
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                            Live Demo
-                        </a>
-                        <a href="#" class="project-link">
-                            <i class="fab fa-github"></i>
-                            View Code
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Motivational Calendar App</div>
-                            <div class="item-company">Java, GUI, Agile Principles</div>
-                        </div>
-                        <div class="item-date">2023</div>
-                    </div>
-                    <div class="item-description">
-                        Ranked 1st of 200+ in internal review for functionality and design. Created a sleek, interactive calendar app to help users combat procrastination. Documented codebase thoroughly to support future scaling and collaborative development.
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                            Live Demo
-                        </a>
-                        <a href="#" class="project-link">
-                            <i class="fab fa-github"></i>
-                            View Code
-                        </a>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="experience" class="section scroll-offset">
-                <h2 class="section-title">Experience</h2>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">CEED Mentor
-                            </div>
-                            <div class="item-company">Center for the Enhancement of Engineering Diversity at Virginia Tech
-                            </div>
-                        </div>
-                        <div class="item-date">2024 - Present</div>
-                    </div>
-                    <div class="item-description">
-                        Support first-year engineering students through mentorship, study planning, and academic goal-setting. Lead weekly check-ins to develop time management and collaborative skills.
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">STEAM Camp Counselor</div>
-                            <div class="item-company">SciGenius</div>
-                        </div>
-                        <div class="item-date">2023 - 2024</div>
-                    </div>
-                    <div class="item-description">
-                        Led 10+ STEM projects weekly, teaching students design thinking and coding basics. Mentored 150+ K-8 students, fostering creativity and problem-solving in an engaging environment.
-                    </div>
-                </div>
-            </section>
-<!-- 
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Frontend Developer</div>
-                            <div class="item-company">Digital Agency Pro</div>
-                        </div>
-                        <div class="item-date">2018 - 2020</div>
-                    </div>
-                    <div class="item-description">
-                        Created custom websites and web applications for diverse clients. Specialized in modern JavaScript frameworks and responsive design. Worked closely with designers to ensure pixel-perfect implementations and smooth user experiences.
-                    </div>
-                </div>
-            </section> -->
-
-            <section id="beyond-code" class="section scroll-offset">
-                <h2 class="section-title">Beyond the Code</h2>
-                
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <div class="item-title">Entrepreneurial Hair Braiding Business
-                            </div>
-                            <div class="item-company">Elaini’s Elegance at Virginia Tech
-                            </div>
-                        </div>
-                        <div class="item-date">2023 - Present</div>
-                    </div>
-                    <div class="item-description">
-                        I offer professional hair braiding services to my school community, developing strong client communication, time management, and attention to detail—skills that complement my software engineering work.
-                    </div>
-                </div>
-            </section>
-
-            <section id="connect" class="cta-section scroll-offset">
-                <h2 style="margin-bottom: 1rem;">Excited to Build and Ready to Contribute. Let's Connect!</h2>
-                <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-                    I'm always looking to work on impactful projects and collaborate with talented teams.
-                </p>
-                <a href="mailto:elainigeffa05@gmail.com" class="cta-button">
-                    <i class="fas fa-envelope"></i>
-                    Get In Touch
+            <p class="hero-description">
+                Computer Science student at Virginia Tech passionate about full-stack development, 
+                AI-powered solutions, and creating meaningful technology experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#" class="btn btn-secondary" id="resume-btn">
+                    <i class="fas fa-download"></i> Download Resume
                 </a>
-            </section>
-        </main>
-    </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <i class="fas fa-user fa-5x"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Computer Science student at Virginia Tech with a passion for creating innovative 
+                        solutions that solve real-world problems. Currently pursuing my Bachelor's degree with 
+                        an expected graduation in May 2027.
+                    </p>
+                    <p>
+                        My experience spans full-stack development, natural language processing, and AI integration. 
+                        I enjoy working on projects that combine technical excellence with meaningful user experiences, 
+                        from building AI-powered resume analysis tools to creating responsive web applications.
+                    </p>
+                    <p>
+                        Beyond coding, I'm actively involved in mentoring first-year engineering students and 
+                        running my own hair braiding business, which has taught me valuable entrepreneurial 
+                        and leadership skills.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>150+</h3>
+                        <p>Students Mentored</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2027</h3>
+                        <p>Expected Graduation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">MATLAB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">OpenAI API</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Competencies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Full-Stack Development</span>
+                        <span class="skill-tag">Natural Language Processing</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithm Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot fa-3x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>FitForHire</h3>
+                        <p>AI-powered resume analysis and application management tool using OpenAI's GPT-4 API. 
+                           Features automated keyword extraction and job application tracking.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>React.js</span>
+                            <span>OpenAI API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe fa-3x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Responsive portfolio site with modern glassmorphism design, deployed on AWS with 
+                           full CI/CD pipeline and optimized for all devices.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>AWS</span>
+                            <span>CI/CD</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://elainigeffa.com" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-calendar-alt fa-3x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Motivational Calendar App</h3>
+                        <p>Java-based calendar application designed to address academic procrastination with 
+                           friendly reminders and structured scheduling features.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>GUI Design</span>
+                            <span>Agile</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Leadership</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>CEED Mentor</h3>
+                        <h4>Center for the Enhancement of Engineering Diversity</h4>
+                        <p>Mentoring 2 first-year engineering students with guidance on study strategies, 
+                           academic planning, and goal-setting. Leading weekly check-ins and connecting 
+                           students to campus resources.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Founder & Owner</h3>
+                        <h4>Elaini's Elegance</h4>
+                        <p>Operating a self-run hair braiding business on campus, managing all aspects 
+                           including scheduling, client communication, and brand growth through social 
+                           media and referrals.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jun 2024 - Aug 2024</div>
+                    <div class="timeline-content">
+                        <h3>STEM Camp Counselor</h3>
+                        <h4>SciGenius</h4>
+                        <p>Led hands-on STEM activities and coding workshops for K-8 students, mentoring 
+                           150 students in programming concepts and engineering principles.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Mar 2023 - Aug 2023</div>
+                    <div class="timeline-content">
+                        <h3>Front of House Team Member</h3>
+                        <h4>Nando's Peri-Peri</h4>
+                        <p>Promoted within 3 months for exceptional customer service. Personally recognized 
+                           by the CEO for outstanding leadership and positive team contributions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>elainigeffa05@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(571) 733-4471</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Alexandria, VA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/elainigeffa" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://elainigeffa.com" class="social-link">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Elaini Geffa. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script>
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+
+        mobileMenu.addEventListener('click', function() {
+            mobileMenu.classList.toggle('is-active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('is-active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Dynamic text animation
+        const dynamicText = document.getElementById('dynamic-text');
+        const textArray = [
+            'Computer Science Student',
+            'Full-Stack Developer',
+            'AI Enthusiast',
+            'Problem Solver',
+            'Mentor & Leader'
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeWriter() {
+            const currentText = textArray[textIndex];
+            
+            if (isDeleting) {
+                dynamicText.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                dynamicText.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = 100;
+            if (isDeleting) {
+                typeSpeed = 50;
+            }
+
+            if (!isDeleting && charIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % textArray.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(typeWriter, typeSpeed);
+        }
+
+        // Start the typing animation
+        typeWriter();
+
+        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -263,48 +396,12 @@
             });
         });
 
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.opacity = '0';
-            section.style.transform = 'translateY(30px)';
-            section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-            observer.observe(section);
+        // Resume download functionality
+        document.getElementById('resume-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            // Replace with actual resume file path
+            alert('Resume download will be implemented with actual file path');
         });
-
-        const subtitle = document.querySelector('.subtitle');
-        const originalText = subtitle.textContent;
-        subtitle.textContent = '';
-        
-        let i = 0;
-        function typeWriter() {
-            if (i < originalText.length) {
-                subtitle.textContent += originalText.charAt(i);
-                i++;
-                setTimeout(typeWriter, 100);
-            }
-        }
-        
-        setTimeout(typeWriter, 1000);
     </script>
-
-    <script>
-        document.querySelector('a[href="#about"]').addEventListener('click', function(event) {
-          event.preventDefault();
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-      </script>
 </body>
 </html>

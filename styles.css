@@ -649,8 +649,9 @@ section {
         backdrop-filter: blur(100px);
         width: 100%;
         text-align: left;
+        margin-left: 2rem;
         transition: 0.3s;
-        padding: 1rem 0;
+        padding: 0.5rem 0;
         border-bottom: 1px solid var(--glass-border);
     }
 

@@ -6,11 +6,11 @@
 }
 
 :root {
-    --pink-primary: #e91e63;
-    --pink-light: #f8bbd0;
-    --pink-gradient-start: #fce4ec;
-    --pink-gradient-end: #f8bbd0;
-    --text-dark: #333;
+    --pink-primary: #d4a5a5;         /* Muted dusty pink / champagne */
+    --pink-light: #f5e6e8;           /* Very soft pinky cream */
+    --pink-gradient-start: #faf5f5;  /* Almost white pink cream */
+    --pink-gradient-end: #f5e6e8;    /* Soft cream */
+    --text-dark: #3a3a3a;            /* Dark gray for legibility */
     --white: #ffffff;
 }
 
@@ -211,7 +211,7 @@ body {
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(233, 30, 99, 0.3);
+    box-shadow: 0 10px 20px rgba(212, 165, 165, 0.3);
 }
 
 .btn-secondary {
@@ -359,7 +359,7 @@ section {
 }
 
 .skill-tag:hover {
-    background: rgba(233, 30, 99, 0.2);
+    background: rgba(212, 165, 165, 0.2);
     transform: translateY(-2px);
 }
 
@@ -415,12 +415,12 @@ section {
 }
 
 .project-tech span {
-    background: rgba(233, 30, 99, 0.2);
+    background: rgba(212, 165, 165, 0.2);
     color: var(--pink-primary);
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.8rem;
-    border: 1px solid rgba(233, 30, 99, 0.3);
+    border: 1px solid rgba(212, 165, 165, 0.3);
 }
 
 .project-links {

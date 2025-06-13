@@ -663,7 +663,7 @@ section {
     }
 
     .nav-toggle.is-active .bar:nth-child(2) {
-        opacity: 50;
+        opacity: 100;
     }
 
     .nav-toggle.is-active .bar:nth-child(1) {

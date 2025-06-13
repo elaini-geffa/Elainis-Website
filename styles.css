@@ -642,18 +642,18 @@ section {
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
-        left: -100%;
-        top: 70px;
-        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--glass-border);
+        transition: all 0.3s ease;
+        flex-direction: column;
         width: 100%;
         text-align: center;
-        transition: 0.3s;
         padding: 2rem 0;
-        border-bottom: 1px solid var(--glass-border);
-        z-index: 1100;
     }
 
     .nav-menu.active {

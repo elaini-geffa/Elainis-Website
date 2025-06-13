@@ -58,7 +58,6 @@ body::before {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--glass-border);
     transition: all 0.3s ease;
-    z-index: 1100;
 }
 
 .nav-container {
@@ -289,7 +288,7 @@ section {
 /* About Section */
 .about-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 4rem;
     align-items: start;
 }
@@ -654,6 +653,7 @@ section {
         transition: 0.3s;
         padding: 2rem 0;
         border-bottom: 1px solid var(--glass-border);
+        z-index: 1100;
     }
 
     .nav-menu.active {
@@ -715,8 +715,4 @@ section {
         font-size: 1.2rem;
     }
 
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
 }

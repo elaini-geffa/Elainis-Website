@@ -646,18 +646,16 @@ section {
         top: 70px;
         flex-direction: column;
         background: var(--card-bg);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(100px);
         width: 100%;
         text-align: left;
         transition: 0.3s;
-        padding: 2rem 0;
+        padding: 1rem 0;
         border-bottom: 1px solid var(--glass-border);
     }
 
     .nav-menu.active {
         left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(8px); 
     }
 
     .nav-toggle {

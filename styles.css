@@ -58,6 +58,7 @@ body::before {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--glass-border);
     transition: all 0.3s ease;
+    z-index: 1100;
 }
 
 .nav-container {
@@ -712,5 +713,10 @@ section {
         width: 50px;
         height: 50px;
         font-size: 1.2rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }

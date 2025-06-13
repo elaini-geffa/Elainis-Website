@@ -151,6 +151,7 @@ body::before {
 }
 
 .highlight {
+    white-space: nowrap;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -158,6 +159,7 @@ body::before {
 }
 
 .subtitle-container {
+    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
@@ -179,6 +181,7 @@ body::before {
     font-size: 1.2rem;
     color: var(--text-secondary);
     line-height: 1.8;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
     animation: fadeInUp 0.8s ease 0.4s both;
 }

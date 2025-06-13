@@ -70,6 +70,7 @@ body::before {
 }
 
 .nav-logo a {
+    font-family: cursive;
     font-size: 1.5rem;
     font-weight: 700;
     background: var(--primary-gradient);
@@ -138,7 +139,7 @@ body::before {
     grid-template-columns: 1fr;
     place-items: center;
     gap: 1.5rem;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
@@ -490,7 +491,7 @@ section {
 }
 
 .timeline {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -663,7 +664,7 @@ section {
     }
 
     .nav-toggle.is-active .bar:nth-child(2) {
-        opacity: 100;
+        opacity: 0;
     }
 
     .nav-toggle.is-active .bar:nth-child(1) {

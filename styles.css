@@ -294,6 +294,8 @@ section {
 }
 
 .about-text p {
+    max-width: 1200px;
+    margin: 0 auto;
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
@@ -642,18 +644,17 @@ section {
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--glass-border);
-        transition: all 0.3s ease;
-        flex-direction: column;
         width: 100%;
         text-align: center;
+        transition: 0.3s;
         padding: 2rem 0;
+        z-index: 1100;
     }
 
     .nav-menu.active {

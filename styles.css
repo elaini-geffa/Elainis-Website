@@ -146,7 +146,7 @@ body::before {
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     animation: fadeInUp 0.8s ease;
 }
 

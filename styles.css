@@ -54,7 +54,7 @@ body::before {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--glass-border);
     transition: all 0.3s ease;
@@ -147,7 +147,7 @@ body::before {
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     animation: fadeInUp 0.8s ease;
 }
 

@@ -645,8 +645,7 @@ section {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.072);;
-        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.065);
         width: 100%;
         text-align: center;
         transition: 0.3s;

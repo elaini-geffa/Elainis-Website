@@ -79,10 +79,10 @@ body::before {
     text-decoration: none;
 }
 
-.nav-menu {
+/* .nav-menu {
     display: flex;
     gap: 1rem;
-}
+} */
 
 .nav-link {
     color: var(--text-primary);

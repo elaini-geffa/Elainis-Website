@@ -642,10 +642,10 @@ section {
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
-        right: +100%;
+        left: 100%;
         top: 70px;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.25);
+        background: rgba(255, 255, 255);
         backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--glass-border);
         width: 100%;

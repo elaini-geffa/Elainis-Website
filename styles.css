@@ -642,16 +642,16 @@ section {
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
-        left: -100%;
+        right: +100%;
         top: 70px;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.15);
+        background: rgba(255, 255, 255, 0.25);
         backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--glass-border);
         width: 100%;
-        text-align: center;
+        text-align: right;
         transition: 0.3s;
-        padding: 2rem 0;
+        padding: 1rem 0;
         z-index: 1100;
     }
 

@@ -642,17 +642,17 @@ section {
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
-        left: 100%;
+        left: -100%;
         top: 70px;
         flex-direction: column;
-        background: #b76e79 0%;
+        background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--glass-border);
-        width: 25%;
-        text-align: right;
-        padding-right: 1rem;
+        width: 100%;
+        text-align: center;
         transition: 0.3s;
-        padding: 1rem 0;
+        padding: 2rem 0;
         z-index: 1100;
     }
 

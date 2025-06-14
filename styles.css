@@ -679,6 +679,7 @@ section {
     }
 
     .about-content {
+        flex-direction: column;
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 0 1rem;

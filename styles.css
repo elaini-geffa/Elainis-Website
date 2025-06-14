@@ -287,17 +287,19 @@ section {
 
 /* About Section */
 .about-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
     gap: 4rem;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .about-text p {
+    flex: 1;
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    justify-self: start;
+    text-align: left;
 }
 
 .about-stats {
@@ -648,7 +650,6 @@ section {
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        isolation: isolate;
         border-bottom: 1px solid var(--glass-border);
         width: 100%;
         text-align: center;

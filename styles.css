@@ -648,6 +648,7 @@ section {
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        isolation: isolate;
         border-bottom: 1px solid var(--glass-border);
         width: 100%;
         text-align: center;

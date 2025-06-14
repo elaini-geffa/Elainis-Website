@@ -294,8 +294,6 @@ section {
 }
 
 .about-text p {
-    max-width: 600px;
-    margin: 0 auto;
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;

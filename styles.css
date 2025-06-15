@@ -337,8 +337,9 @@ section {
     font-size: 1.1rem;
 }
 
-.stat i {
+.stat i, p {
     display: inline-block;
+    margin-right: 10px;
 }
 
 /* Skills Section */

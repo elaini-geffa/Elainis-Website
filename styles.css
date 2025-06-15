@@ -839,20 +839,20 @@ section {
 }
 
 .branding h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--text-primary);
     text-align: left;
     margin-bottom: 1rem;
 }
 
 .branding p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--text-secondary);
     text-align: left;
-    margin-bottom: 1rem;
 }
 
 .closing-icons {
+    margin-top: 1rem;
     display: flex;
     gap: 1.5rem;
 }
@@ -861,12 +861,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background: var(--card-bg);
     color: var(--accent-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 1px solid var(--glass-border);
     transition: all 0.3s ease;
     text-decoration: none;

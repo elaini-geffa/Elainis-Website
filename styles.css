@@ -320,9 +320,10 @@ section {
 }
 
 .stat-contents {
-    display: inline-block;
+    display: flex;
     text-align: center;
     margin-right: 10px;
+    margin: 2rem;
 }
 
 .stat:hover {

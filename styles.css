@@ -677,6 +677,12 @@ section {
     margin-top: 2rem;
 }
 
+.btn-contact a,
+.btn-contact a * {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
 .btn-contact:hover {
     transform: translateY(-5px) scale(1.1);
     background: var(--accent-gradient);

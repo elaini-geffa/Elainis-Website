@@ -388,6 +388,9 @@ section {
 
 /* Education Section */
 .education-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
     background: var(--card-bg);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
@@ -415,9 +418,9 @@ section {
 }
 
 .vt-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 .education-content h3 {

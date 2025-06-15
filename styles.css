@@ -395,7 +395,8 @@ section {
 }
 
 .education-text {
-    display: inline-flex;
+    max-width: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -458,11 +459,9 @@ section {
 }
 
 .course-tags {
-    display: grid;
-    max-width: 600px;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1rem;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.8rem;
 }
 

@@ -599,14 +599,12 @@ section {
 
 /* Contact Section */
 .contact-content {
-    max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
 
 .contact-info {
     display: flex;
-    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     align-items: flex-start;
 }

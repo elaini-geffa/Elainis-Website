@@ -204,6 +204,7 @@ body::before {
 .btn-primary {
     background: var(--primary-gradient);
     color: white;
+    text-decoration: none;
 }
 
 .btn-primary:hover {

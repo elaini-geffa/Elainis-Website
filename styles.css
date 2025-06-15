@@ -440,7 +440,7 @@ section {
     margin-bottom: 1rem;
 }
 
-.eduation-content p {
+.education-content p {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 1rem;
@@ -453,8 +453,8 @@ section {
 
 .course-tags {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 1rem;
     flex-wrap: wrap;
     gap: 0.8rem;

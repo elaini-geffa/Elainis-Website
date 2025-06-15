@@ -309,6 +309,7 @@ section {
 }
 
 .stat {
+    width: 100%;
     background: var(--card-bg);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
@@ -319,7 +320,7 @@ section {
 }
 
 .stat-contents {
-    display: flex;
+    display: inline-block;
     text-align: center;
     margin-right: 10px;
     margin: 2rem;

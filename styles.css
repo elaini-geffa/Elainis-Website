@@ -321,7 +321,8 @@ section {
 .stat-contents {
     display: flex;
     text-align: center;
-    margin: 1rem;
+    margin-right: 10px;
+    margin: 2rem;
 }
 
 .stat:hover {

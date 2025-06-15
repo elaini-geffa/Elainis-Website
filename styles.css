@@ -335,13 +335,12 @@ section {
 }
 
 .stat-icon i {
-    color: #ffffff;
+    display: inline-block;
+    gap: 1rem;
     background: var(--card-bg);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--text-primary);
     text-decoration: none;
     transition: all 0.3s ease;

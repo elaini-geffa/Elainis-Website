@@ -460,8 +460,7 @@ section {
 
 .course-tags {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
     flex-wrap: wrap;
     gap: 0.8rem;
@@ -887,12 +886,6 @@ section {
     .hero-buttons {
         flex-direction: row;
         align-items: center;
-    }
-
-    .course-tags {
-        gap: 1rem;
-        flex-wrap: wrap;
-        gap: 0.8rem;
     }
 
     .skills-grid,

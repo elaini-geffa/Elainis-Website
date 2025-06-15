@@ -390,9 +390,10 @@ section {
 .education-content {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
     align-self: center;
+    justify-content: center;
+    align-items: center;
     background: var(--card-bg);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);

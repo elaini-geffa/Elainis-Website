@@ -419,6 +419,7 @@ section {
 }
 
 .vt-logo {
+    max-width: 300px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -426,7 +427,7 @@ section {
 .education-content h3 {
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .grad-year {
@@ -441,14 +442,10 @@ section {
 }
 
 .education-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--text-primary);
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-secondary);
 }
 
 .course-tags {

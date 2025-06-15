@@ -357,6 +357,12 @@ section {
     align-items: center;
 }
 
+.stat-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: var(--accent-gradient);
+    box-shadow: 0 15px 30px rgba(250, 172, 168, 0.3);
+}
+
 .stat:hover {
     transform: translateY(-5px);
 }

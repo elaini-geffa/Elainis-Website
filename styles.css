@@ -777,12 +777,14 @@ section {
 }
 
 .btn-contact {
-    display: flex;
+    display: inline-flex;
+    padding: 0.5rem 1rem;
     margin: 0 auto;
     background: var(--primary-gradient);
     color: white;
     text-decoration: none;
     margin-top: 2rem;
+    width: fit-content;
 }
 
 .btn-contact a,
@@ -895,7 +897,7 @@ section {
 
 .closing-nav p {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 1000;
     flex-direction: column;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
@@ -907,7 +909,7 @@ section {
 
 .closing-connect  h3{
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 1000;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
 }

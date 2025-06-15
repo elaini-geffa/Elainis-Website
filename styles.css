@@ -334,6 +334,12 @@ section {
     background-clip: text;
 }
 
+.stat-icon i {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+}
+
 .stat:hover {
     transform: translateY(-5px);
 }

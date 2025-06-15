@@ -759,6 +759,16 @@ section {
         gap: 0.5rem;
     }
 
+    .stat-icons {
+        gap: 1rem;
+    }
+
+    .stat-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
     .social-links {
         gap: 1rem;
     }

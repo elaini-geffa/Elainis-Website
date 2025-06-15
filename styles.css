@@ -334,15 +334,18 @@ section {
     background-clip: text;
 }
 
+.stat-icon {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
 .stat-icon i {
     font-size: 1.5rem;
     color: var(--text-primary);
-    background: var(--accent-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    display: inline-block;
-    gap: 1rem;
 }
 
 .stat:hover {

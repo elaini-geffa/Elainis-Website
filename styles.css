@@ -315,6 +315,9 @@ section {
     border-radius: 15px;
     padding: 2rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     transition: transform 0.3s ease;
 }
 

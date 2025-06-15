@@ -375,10 +375,6 @@ section {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: var(--text-primary);
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     text-align: center;
 }
 

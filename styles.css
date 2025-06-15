@@ -838,6 +838,11 @@ section {
     border-top: 1px solid var(--glass-border);
 }
 
+.closing-content > div {
+  flex: 1 1 30%; /* 3 items per row */
+  min-width: 250px; /* prevents squishing on narrow screens */
+}
+
 .branding h3 {
     font-size: 1.7rem;
     color: var(--text-primary);
@@ -983,5 +988,14 @@ section {
         height: 50px;
         font-size: 1.2rem;
     }
+
+    .closing-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .closing-content > div {
+    width: 100%;
+  }
 
 }

@@ -316,6 +316,8 @@ section {
     border-radius: 15px;
     padding: 2rem;
     transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
 }
 
 .stat-contents {

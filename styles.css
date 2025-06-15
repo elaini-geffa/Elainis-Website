@@ -621,6 +621,9 @@ section {
     align-items: center;
     gap: 1rem;
     transition: transform 0.3s ease;
+}
+
+.contact-item a {
     text-decoration: none;
 }
 

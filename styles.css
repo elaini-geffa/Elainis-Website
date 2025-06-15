@@ -889,6 +889,12 @@ section {
         align-items: center;
     }
 
+    .course-tags {
+        gap: 1rem;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
     .skills-grid,
     .projects-grid {
         grid-template-columns: 1fr;

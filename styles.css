@@ -404,7 +404,7 @@ section {
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
     border-radius: 15px;
-    padding: 2rem;
+    /* padding: 2rem; */
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;

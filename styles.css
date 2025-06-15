@@ -306,6 +306,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    justify-self: center;
 }
 
 .stat {
@@ -632,7 +633,7 @@ section {
 .contact-item a,
 .contact-item a * {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
 }
 
 .contact-item:hover {

@@ -741,6 +741,7 @@ section {
     align-items: center;
     gap: 1rem;
     transition: transform 0.3s ease;
+    margin-bottom: 2rem;
 }
 
 .contact-item a,
@@ -783,7 +784,7 @@ section {
     background: var(--primary-gradient);
     color: white;
     text-decoration: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: fit-content;
 }
 
@@ -897,7 +898,7 @@ section {
 
 .closing-nav p {
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: 900;
     flex-direction: column;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
@@ -909,7 +910,7 @@ section {
 
 .closing-connect  h3{
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: 900;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
 }

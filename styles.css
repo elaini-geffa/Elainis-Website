@@ -833,6 +833,10 @@ section {
     justify-content: center;
     flex-direction: row; /* Default: horizontal */
     flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid var(--glass-border);
 }
 
 /* Footer */

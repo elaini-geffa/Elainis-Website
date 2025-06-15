@@ -609,6 +609,8 @@ section {
     display: flex;
     gap: 1rem;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact-item {
@@ -623,8 +625,10 @@ section {
     transition: transform 0.3s ease;
 }
 
-.contact-item a {
+.contact-item a,
+.contact-item a * {
     text-decoration: none;
+    color: inherit;
 }
 
 .contact-item:hover {

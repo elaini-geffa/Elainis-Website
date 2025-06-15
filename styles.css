@@ -334,17 +334,13 @@ section {
     background-clip: text;
 }
 
-.stat-icon i {
-    display: inline-block;
-    gap: 1rem;
-    background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    display: flex;
-    color: var(--text-primary);
-    text-decoration: none;
-    transition: all 0.3s ease;
+.stat-icon {
     font-size: 1.5rem;
+    color: var(--text-primary);
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .stat:hover {

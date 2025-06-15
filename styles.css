@@ -314,7 +314,8 @@ section {
     border: 1px solid var(--glass-border);
     border-radius: 15px;
     padding: 2rem;
-    /* text-align: center; */
+    display: block;
+    text-align: center;
     display: flex;
     align-items: center;
     gap: 0.5rem;

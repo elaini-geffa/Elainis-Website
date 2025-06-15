@@ -419,7 +419,6 @@ section {
 }
 
 .vt-logo {
-    max-width: 300px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -465,6 +464,12 @@ section {
     font-size: 0.9rem;
     color: var(--text-primary);
     transition: all 0.3s ease;
+}
+
+.course-tag:hover {
+    background: var(--accent-gradient);
+    transform: scale(1.05);
+    color: white;
 }
 
 /* Skills Section */

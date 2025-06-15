@@ -195,7 +195,7 @@ body::before {
     padding: 1rem 2rem;
     border-radius: 50px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 200;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
@@ -321,6 +321,7 @@ section {
 .stat-contents {
     display: flex;
     gap: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .stat:hover {

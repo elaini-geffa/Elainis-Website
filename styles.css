@@ -668,6 +668,14 @@ section {
     color: var(--text-secondary);
 }
 
+.btn-contact {
+    display: flex;
+    margin: 0 auto;
+    background: var(--primary-gradient);
+    color: white;
+    text-decoration: none;
+}
+
 .social-links {
     display: flex;
     gap: 1.5rem;

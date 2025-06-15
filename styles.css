@@ -602,7 +602,9 @@ section {
     margin: 0 auto;
     text-align: center;
     align-items: center;
+    justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 .contact-info {

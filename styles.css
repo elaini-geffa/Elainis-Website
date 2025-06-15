@@ -836,6 +836,7 @@ section {
     background: rgba(255, 255, 255, 0.02);
     padding: 2rem 0;
     border-top: 1px solid var(--glass-border);
+    margin: 0 auto;
 }
 
 .closing-content > div {
@@ -875,6 +876,12 @@ section {
     border: 1px solid var(--glass-border);
     transition: all 0.3s ease;
     text-decoration: none;
+}
+
+.closing-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: var(--accent-gradient);
+    box-shadow: 0 15px 30px rgba(250, 172, 168, 0.3);
 }
 
 /* Footer */

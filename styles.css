@@ -323,7 +323,7 @@ section {
 }
 
 .stat h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
     color: var(--text-primary);
     background: var(--accent-gradient);
@@ -335,6 +335,10 @@ section {
 .stat p {
     color: var(--text-secondary);
     font-size: 1.1rem;
+}
+
+.stat i {
+    display: inline-block;
 }
 
 /* Skills Section */

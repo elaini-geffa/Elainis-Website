@@ -613,7 +613,8 @@ section {
     display: flex;
     margin: 0 auto;
     color: var(--text-secondary);
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 600;
     margin-bottom: 2rem;
 }
 

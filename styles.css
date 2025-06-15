@@ -292,7 +292,7 @@ section {
 }
 
 .about-text {
-    flex: 1;
+    flex: 0.6;
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
@@ -302,7 +302,7 @@ section {
 }
 
 .about-stats {
-    flex: 1;
+    flex: 0.4;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -315,7 +315,7 @@ section {
     border: 1px solid var(--glass-border);
     border-radius: 15px;
     padding: 2rem;
-    text-align: center;
+    align-items: center;
     transition: transform 0.3s ease;
 }
 
@@ -323,6 +323,7 @@ section {
     display: flex;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
+    align-items: center;
 }
 
 .stat:hover {

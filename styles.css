@@ -337,11 +337,6 @@ section {
     font-size: 1.1rem;
 }
 
-.stat i, p {
-    display: inline-block;
-    margin-right: 10px;
-}
-
 /* Skills Section */
 .skills {
     background: rgba(255, 255, 255, 0.02);

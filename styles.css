@@ -419,7 +419,7 @@ section {
 }
 
 .vt-logo {
-    max-width: 450px;
+    max-width: 300px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -455,8 +455,6 @@ section {
     gap: 1rem;
     flex-wrap: wrap;
     gap: 0.8rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 .course-tag {

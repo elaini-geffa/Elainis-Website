@@ -391,8 +391,6 @@ section {
     display: inline-flex;
     flex-direction: column;
     text-align: center;
-    align-self: center;
-    justify-content: center;
     align-items: center;
     background: var(--card-bg);
     backdrop-filter: blur(20px);
@@ -404,6 +402,7 @@ section {
     overflow: hidden;
     width: fit-content;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .education-content::before {

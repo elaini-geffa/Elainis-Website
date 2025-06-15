@@ -907,7 +907,6 @@ section {
 .closing-nav a:hover {
     color: #ffd3dc;
     transform: translateY(-5px) scale(1.1);
-    background: var(--accent-gradient);
 }
 
 .closing-connect  h3{

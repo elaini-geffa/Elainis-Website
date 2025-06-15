@@ -315,7 +315,6 @@ section {
     border: 1px solid var(--glass-border);
     border-radius: 15px;
     padding: 2rem;
-    align-items: center;
     transition: transform 0.3s ease;
 }
 
@@ -338,6 +337,7 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-align: center;
 }
 
 .stat p {
@@ -612,6 +612,7 @@ section {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
+    align-items: center;
 }
 
 .social-link {

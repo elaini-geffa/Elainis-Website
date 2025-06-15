@@ -645,6 +645,10 @@ section {
     color: #b0b0b0;
 }
 
+.contact-item a:hover {
+    color: var(--primary-gradient);
+}
+
 .contact-item:hover {
     transform: translateY(-5px);
 }

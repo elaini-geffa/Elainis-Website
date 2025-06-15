@@ -646,7 +646,7 @@ section {
 }
 
 .contact-item a:hover {
-    color: var(--primary-gradient);
+    color: #ffff;
 }
 
 .contact-item:hover {

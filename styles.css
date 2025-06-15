@@ -343,9 +343,6 @@ section {
 .stat-icon i {
     font-size: 1.5rem;
     color: var(--text-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .stat:hover {

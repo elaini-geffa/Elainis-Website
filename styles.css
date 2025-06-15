@@ -612,8 +612,8 @@ section {
 .contact-text {
     display: flex;
     margin: 0 auto;
-    color: var(--text-primary);
-    font-weight: 200;
+    color: var(--text-secondary);
+    font-weight: 400;
     margin-bottom: 2rem;
 }
 

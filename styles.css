@@ -45,9 +45,6 @@ body::before {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Navigation */
@@ -391,6 +388,14 @@ section {
 
 /* Education Section */
 .education-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.education-text {
     display: inline-flex;
     flex-direction: column;
     align-items: center;

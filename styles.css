@@ -609,6 +609,13 @@ section {
     flex-direction: column;
 }
 
+.contact-text {
+    display: flex;
+    margin: 0 auto;
+    color: var(--text-primary);
+    
+}
+
 .contact-info {
     display: flex;
     gap: 1rem;

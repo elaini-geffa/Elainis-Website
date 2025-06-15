@@ -334,7 +334,7 @@ section {
     background-clip: text;
 }
 
-.stat-icon {
+.stat-icon i {
     font-size: 1.5rem;
     color: var(--text-primary);
     background: var(--accent-gradient);

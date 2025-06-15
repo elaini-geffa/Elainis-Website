@@ -460,6 +460,7 @@ section {
 
 .course-tags {
     display: grid;
+    max-width: 600px;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
     flex-wrap: wrap;

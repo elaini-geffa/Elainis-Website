@@ -231,8 +231,8 @@ body::before {
 }
 
 .headshot {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgb(255, 255, 255);
@@ -702,7 +702,7 @@ section {
     }
 
     .hero-buttons {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 

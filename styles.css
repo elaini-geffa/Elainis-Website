@@ -601,6 +601,12 @@ section {
 .contact-content {
     margin: 0 auto;
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 100%;
 }
 
 .contact-info {

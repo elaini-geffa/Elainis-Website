@@ -335,7 +335,8 @@ section {
 }
 
 .stat-icon i {
-    background: rgb(255, 255, 255));
+    color: #ffffff;
+    background: var(--card-bg);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
 }

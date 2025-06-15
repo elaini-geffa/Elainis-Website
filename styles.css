@@ -42,7 +42,7 @@ body::before {
 }
 
 .container {
-    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -228,6 +228,29 @@ body::before {
 .hero-image {
     justify-content: center;
     align-items: center;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: conic-gradient(var(--accent-color), transparent, var(--accent-color));
+  animation: spinRing 2s linear infinite;
+  z-index: 1;
+  opacity: 0.4; /* Adjust to taste */
+}
+
+@keyframes spinRing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .headshot {

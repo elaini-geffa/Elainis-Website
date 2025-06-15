@@ -882,6 +882,7 @@ section {
 }
 
 .closing-nav {
+    display: flex;
     flex-direction: column;
     color: var(--text-secondary);
     gap: 1rem;
@@ -889,6 +890,7 @@ section {
 }
 
 .closing-nav p {
+    font-size: 1rem;
     flex-direction: column;
     color: var(--text-primary);
     margin-bottom: 0.5rem;

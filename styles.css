@@ -826,6 +826,15 @@ section {
     box-shadow: 0 15px 30px rgba(250, 172, 168, 0.3);
 }
 
+/* Closing */
+.closing-content {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: row; /* Default: horizontal */
+    flex-wrap: wrap;
+}
+
 /* Footer */
 .footer {
     background: rgba(255, 255, 255, 0.02);

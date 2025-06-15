@@ -162,7 +162,7 @@ body::before {
 }
 
 .subtitle {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--text-secondary);
 }
 
@@ -192,10 +192,10 @@ body::before {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
     border-radius: 50px;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 600;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;

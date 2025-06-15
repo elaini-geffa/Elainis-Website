@@ -291,7 +291,8 @@ section {
     align-items: flex-start;
 }
 
-.about-text p {
+.about-text {
+    flex: 1;
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
@@ -301,6 +302,7 @@ section {
 }
 
 .about-stats {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 2rem;

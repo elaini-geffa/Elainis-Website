@@ -606,6 +606,8 @@ section {
 
 .contact-info {
     display: flex;
+    gap: 4rem;
+    align-items: flex-start;
 }
 
 .contact-item {

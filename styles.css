@@ -419,6 +419,7 @@ section {
 }
 
 .vt-logo {
+    max-width: 500px;
     height: auto;
     margin-bottom: 1rem;
 }

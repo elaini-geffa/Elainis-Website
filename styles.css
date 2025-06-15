@@ -323,13 +323,13 @@ section {
 }
 
 .stat h3 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    background: var(--primary-gradient);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    background: var(--accent-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 0.5rem;
 }
 
 .stat p {

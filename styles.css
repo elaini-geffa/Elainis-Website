@@ -81,6 +81,9 @@ body::before {
 }
 
 .nav-menu {
+    background: rgba(145, 141, 141, 0.836);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     gap: 1rem;
 }

@@ -162,7 +162,7 @@ body::before {
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--text-secondary);
 }
 
@@ -185,6 +185,7 @@ body::before {
 .hero-buttons {
     display: flex;
     gap: 1.5rem;
+    font-size: 1.2rem;
     animation: fadeInUp 0.8s ease 0.6s both;
 }
 

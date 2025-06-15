@@ -881,6 +881,19 @@ section {
     box-shadow: 0 15px 30px rgba(250, 172, 168, 0.3);
 }
 
+.closing-nav {
+    flex-direction: column;
+    color: var(--text-secondary);
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.closing-nav p {
+    flex-direction: column;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
 /* Footer */
 .footer {
     background: rgba(255, 255, 255, 0.02);

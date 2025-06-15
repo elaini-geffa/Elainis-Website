@@ -715,7 +715,7 @@ section {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: rgb(119, 115, 115);
+        background: rgba(139, 134, 134, 0.921);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--glass-border);

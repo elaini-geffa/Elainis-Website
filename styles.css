@@ -613,7 +613,8 @@ section {
     display: flex;
     margin: 0 auto;
     color: var(--text-primary);
-    
+    font-weight: 200;
+    margin-bottom: 2rem;
 }
 
 .contact-info {

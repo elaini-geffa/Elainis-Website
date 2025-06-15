@@ -390,8 +390,8 @@ section {
 .education-content {
     display: inline-flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
+    text-align: center;
     background: var(--card-bg);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
@@ -401,7 +401,6 @@ section {
     position: relative;
     overflow: hidden;
     width: fit-content;
-    max-width: 100%;
     margin: 0 auto;
 }
 

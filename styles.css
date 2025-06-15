@@ -309,6 +309,7 @@ section {
 }
 
 .stat {
+    display: flex;
     background: var(--card-bg);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);

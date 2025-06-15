@@ -895,7 +895,7 @@ section {
 
 .closing-nav p {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
     flex-direction: column;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
@@ -904,6 +904,19 @@ section {
 .closing-nav a:hover {
     color: #ffd3dc;
 }
+
+.closing-connect  h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.closing-connect p {
+    color: var(--text-secondary);
+}
+
+
 
 /* Footer */
 .footer {

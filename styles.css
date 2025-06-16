@@ -70,13 +70,13 @@ body::before {
     align-items: center;
 }
 
-.nav-logo a i {
-    color: var(--text-primary);
-    text-decoration: none;
+.nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    transition: color 0.3s ease;
-    position: relative;
+    background: var(--text-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-decoration: none;
 }
 

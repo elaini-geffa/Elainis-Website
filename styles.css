@@ -71,7 +71,7 @@ body::before {
 }
 
 .nav-logo a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     background: var(--text-primary);
     -webkit-background-clip: text;
@@ -82,7 +82,7 @@ body::before {
 }
 
 .nav-logo i {
-    font-size: 1.5rem;
+    font-size: 1rem;
     background: var(--text-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

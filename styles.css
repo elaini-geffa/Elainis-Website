@@ -71,9 +71,12 @@ body::before {
 }
 
 .nav-logo a i {
+    color: var(--text-primary);
+    text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
-    background: var(--text-primary);
+    transition: color 0.3s ease;
+    position: relative;
     text-decoration: none;
 }
 

@@ -303,6 +303,10 @@ section {
     text-align: left;
 }
 
+.about-text p {
+    margin-bottom: 0.5rem;
+}
+
 .about-stats {
     flex: 0.4;
     display: flex;

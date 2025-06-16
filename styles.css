@@ -82,8 +82,7 @@ body::before {
 }
 
 .nav-logo i {
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.5rem;
     background: var(--text-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -91,11 +90,11 @@ body::before {
     text-decoration: none;
 }
 
-.nav-logo:hover {
+.nav-logo a:hover {
     color: #ffd3dc;
 }
 
-.nav-logo::after {
+.nav-logo a::after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -106,7 +105,7 @@ body::before {
     transition: width 0.3s ease;
 }
 
-.nav-logo:hover::after {
+.nav-logo a:hover::after {
     width: 100%;
 }
 

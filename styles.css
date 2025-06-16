@@ -82,13 +82,32 @@ body::before {
 }
 
 .nav-logo i {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     background: var(--text-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-decoration: none;
+}
+
+.nav-logo:hover {
+    color: #ffd3dc;
+}
+
+.nav-logo::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-gradient);
+    transition: width 0.3s ease;
+}
+
+.nav-logo:hover::after {
+    width: 100%;
 }
 
 .nav-menu {

@@ -74,6 +74,9 @@ body::before {
     font-size: 1.2rem;
     font-weight: 700;
     background: var(--text-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-decoration: none;
     margin-right: 0.2rem;
     position: relative;
@@ -90,7 +93,7 @@ body::before {
 }
 
 .nav-logo a:hover {
-    color: #ffd3dc;
+    background: linear-gradient(--primary-gradient);
 }
 
 .nav-logo a::after {

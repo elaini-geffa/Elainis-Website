@@ -93,7 +93,7 @@ body::before {
 }
 
 .nav-logo a:hover {
-    background: linear-gradient(--primary-gradient);
+    background: var(--primary-gradient);
 }
 
 .nav-logo a::after {

@@ -78,13 +78,13 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-decoration: none;
-    margin-right: 0.1rem;
+    margin-right: 0.2rem;
     position: relative;
     display: inline-block;
 }
 
 .nav-logo i {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

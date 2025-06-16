@@ -90,6 +90,8 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-decoration: none;
+    position: relative;
+    display: inline-block;
 }
 
 .nav-logo a:hover {

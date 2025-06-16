@@ -70,13 +70,10 @@ body::before {
     align-items: center;
 }
 
-.nav-logo a {
+.nav-logo a i {
     font-size: 1.5rem;
     font-weight: 700;
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: var(--text-primary);
     text-decoration: none;
 }
 

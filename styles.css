@@ -79,6 +79,8 @@ body::before {
     background-clip: text;
     text-decoration: none;
     margin-right: 0.2rem;
+    position: relative;
+    display: inline-block;
 }
 
 .nav-logo i {

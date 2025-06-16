@@ -85,7 +85,7 @@ body::before {
 
 .nav-logo i {
     font-size: 1.2rem;
-    background: var(--text-primary);
+    background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -113,28 +113,6 @@ body::before {
 }
 
 .nav-logo a:hover::after {
-    width: 100%;
-}
-
-.nav-logo i:hover {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.nav-logo i::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--primary-gradient);
-    transition: width 0.3s ease;
-}
-
-.nav-logo i:hover::after {
     width: 100%;
 }
 

@@ -54,7 +54,7 @@ body::before {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(182, 27, 27, 0.836);
+    background: rgba(145, 141, 141, 0.836);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--glass-border);

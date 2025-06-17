@@ -70,12 +70,6 @@ body::before {
     align-items: center;
 }
 
-.nav-logo {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-}
-
 .nav-logo a {
     font-size: 1.2rem;
     font-weight: 700;
@@ -87,8 +81,6 @@ body::before {
     margin-right: 0.2rem;
     position: relative;
     display: inline-block;
-    padding: 0;
-    line-height: 1;
 }
 
 .nav-logo i {
@@ -112,7 +104,6 @@ body::before {
 .nav-logo a::after {
     content: '';
     position: absolute;
-    bottom: -5px;
     left: 0;
     width: 0;
     height: 2px;

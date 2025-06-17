@@ -104,6 +104,7 @@ body::before {
 .nav-logo a::after {
     content: '';
     position: absolute;
+    bottom: -5px;
     left: 0;
     width: 0;
     height: 2px;
@@ -117,6 +118,7 @@ body::before {
 
 .nav-menu {
     display: flex;
+    gap: 1rem;
 }
 
 .nav-link {

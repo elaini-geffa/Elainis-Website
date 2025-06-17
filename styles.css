@@ -117,8 +117,6 @@ body::before {
 
 .nav-menu {
     display: flex;
-    gap: 1rem;
-    margin-top: -1px;
 }
 
 .nav-link {

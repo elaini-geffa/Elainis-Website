@@ -82,7 +82,7 @@ body::before {
     position: relative;
     display: inline-block;
 }
-/* 
+
 .nav-logo i {
     font-size: 1.2rem;
     background: var(--primary-gradient);
@@ -114,7 +114,7 @@ body::before {
 
 .nav-logo a:hover::after {
     width: 100%;
-} */
+}
 
 .nav-menu {
     display: flex;

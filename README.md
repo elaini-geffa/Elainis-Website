@@ -12,7 +12,7 @@ https://elainigeffa.com
 
 ## 🫣 Take a Peak
 
-![Screenshot of website home page](screenshot.png)
+![Screenshot of website home page](Screenshot.png)
 
 ---
 

@@ -269,7 +269,7 @@ body::before {
 
 .headshot {
     object-fit: cover;
-    object-position: 50% 25%;
+    object-position: 50% 15%;
     width: 185px;
     height: 185px;
     border-radius: 50%;
